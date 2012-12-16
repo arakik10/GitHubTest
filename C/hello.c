@@ -1,4 +1,9 @@
 #include <stdio.h>
-int main (void) {
+
+int hello (void) {
   printf("hello");
+}
+
+int main (void) {
+  hello();
 }
